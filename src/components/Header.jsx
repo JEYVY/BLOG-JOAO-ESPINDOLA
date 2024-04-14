@@ -10,7 +10,7 @@ function Header() {
                     <div className="col-md-6 d-flex flex-column align-items-start justify-content-center mt-5 mt-md-0"></div>
                     <h3 className="text-secondary fw-bold lh-1">João Espindola</h3>
                     <h1 className="text-capitalize text-start text-primary lh-1 mb-5">
-                        I trying to be <br /> a developer
+                        I'm trying to be <br /> a developer
                     </h1>
                     <ViewMyWorkBtn />
                 </div>
