@@ -8,14 +8,14 @@ function NavigationBar() {
         <Navbar expand='lg' className='bg-primary w-100 fixed-top z-1'
             data-bs-theme='dark'>
             <Container>
-                <Navbar.Brand href="#" className="fs-4">João Vitor<span className='text-dark'>S.</span></Navbar.Brand>
+                <Navbar.Brand href="#" className="fs-4">Joao<span className='text-dark mb-5 fw-bold'>VFE.</span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className='me-auto w-100 d-flex justify-content-end'>
-                        <Nav.link href='#header'>Home</Nav.link>
-                        <Nav.link href='#about'>About</Nav.link>
-                        <Nav.link href='#projects'>Projects</Nav.link>
-                        <Nav.link href='#contact'>Contact</Nav.link>
+                        <Nav.Link href='#header'>Home</Nav.Link>
+                        <Nav.Link href='#about'>About</Nav.Link>
+                        <Nav.Link href='#projects'>Projects</Nav.Link>
+                        <Nav.Link href='#contact'>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
