@@ -4,17 +4,23 @@ import ViewMyWorkBtn from "./ViewMyWorkBtn";
 
 function AboutSection() {
     return (
-        <div className="bg-dark text-light py-5" id="about">
+        <div className="bg-dark text-light py-5 full-width" id="about">
             <div className="container">
                 <div className="flex-column-reverse flex-md-row row">
-                    <div className="col-md-6 mt-5 mt-md-0 d-flex flex-column justify-content-center align-items-center">
+                    <div className="col-md-6 mt-4 mt-md-0 d-flex flex-column justify-content-center align-items-center">
                         <img className="img-fluid w-75 shadow" src={AboutImg} alt="about img" />
                     </div>
                     <div className="col-md-6 d-flex flex-column justify-content-center">
                         <h2 className="mb-5">About me</h2>
-                        <p className="text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sunt, consequatur aliquid itaque ipsum delectus nesciunt voluptas eaque beatae saepe tempore at a sequi ratione voluptatibus. Velit totam incidunt sunt.</p>
-                        <p className="text-start mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae doloribus dicta, amet porro voluptate labore. Laboriosam quis pariatur quo itaque perspiciatis accusantium non assumenda est sed, laborum sint velit nulla?</p>
-                        <ViewMyWorkBtn />
+                        <p className="text-start">Hi, I'm João Vitor</p>
+                        <p className="text-start mb-5">
+                            I am currently studying Software Engineering at UniSatc, and I am a front-end and mobile developer
+                            with extensive knowledge in React and React Native. I have a strong desire to learn and am a proactive
+                            individual with an easy adaptability.
+                        </p>
+                        <div className="mt-3 about-me-button">
+                            <ViewMyWorkBtn />
+                        </div>
                     </div>
                 </div>
             </div>

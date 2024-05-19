@@ -8,9 +8,9 @@ function Header() {
             <div className="container py-md-5">
                 <div className="row">
                     <div className="col-md-6 d-flex flex-column align-items-start justify-content-center mt-5 mt-md-0"></div>
-                    <h3 className="text-secondary fw-bold lh-1">João Espindola</h3>
+                    <h3 className="text-secondary fw-bold lh-1">João Vitor Figueiredo Espindola</h3>
                     <h1 className="text-capitalize text-start text-primary lh-1 mb-5">
-                        I'm trying to be <br /> a developer
+                        Frontend/mobile <br />developer
                     </h1>
                     <ViewMyWorkBtn />
                 </div>
